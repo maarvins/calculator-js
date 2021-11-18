@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-color: #ff5454;
+  --black: #0d0d0d;
+  --gray-1: #dedede;
+  --gray-2: #cacaca;
+  --gray-3: #d2d2d2;
+  --red-1: #ff3a3a;
+  --red-2: #e44040;
+}
+
+body {
+  background: linear-gradient(45deg, var(--red-1), var(--red-2));
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+}
+
+body,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.calculator-container {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 100%;
+  padding: 2rem 0;
+}
+
+.calculator {
+  background: linear-gradient(
+    90deg,
+    var(--gray-1),
+    var(--gray-2),
+    var(--gray-3)
+  );
+  display: grid;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 32px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+}
