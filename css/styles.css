@@ -25,19 +25,21 @@ input {
 
 button {
   cursor: pointer;
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   font-size: 15px;
   border: none;
   border-radius: 15%;
   transition-property: transform;
   transition-duration: 0.2s;
   margin: 6px;
+  opacity: 0.7;
 }
 
 button:hover {
   color: var(--primary-color);
   transform: scale(1.2);
+  opacity: 1;
 }
 
 .equal {
@@ -50,9 +52,9 @@ button:hover {
 
 #input-display {
   font-size: 25px;
-  text-align: center;
+  text-align: right;
   height: 35px;
-  width: 205px;
+  width: 215px;
   border: none;
   border-radius: 5%;
 }
@@ -85,7 +87,7 @@ input:focus {
   display: grid;
   grid-template-rows: 2fr 1fr 3fr;
   max-width: 400px;
-  height: 350px;
+  height: 370px;
   border-radius: 32px;
 }
 
@@ -93,4 +95,27 @@ input:focus {
   display: flex;
   flex-direction: column;
   padding: 1.5rem 2rem 4rem;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+      0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+#copyright {
+  color: #fff;
+  animation: flicker 1.5s infinite alternate;
 }
