@@ -25,6 +25,43 @@ input {
 
 button {
   cursor: pointer;
+  height: 35px;
+  width: 35px;
+  font-size: 15px;
+  border: none;
+  border-radius: 15%;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  margin: 6px;
+}
+
+button:hover {
+  color: var(--primary-color);
+  transform: scale(1.2);
+}
+
+.equal {
+  height: 100px;
+}
+
+.zero {
+  width: 100px;
+}
+
+#input-display {
+  font-size: 25px;
+  text-align: center;
+  height: 35px;
+  width: 205px;
+  border: none;
+  border-radius: 5%;
+}
+
+/* retirando borda do input quando clicado */
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 .calculator-container {
@@ -48,7 +85,7 @@ button {
   display: grid;
   grid-template-rows: 2fr 1fr 3fr;
   max-width: 400px;
-  height: 400px;
+  height: 350px;
   border-radius: 32px;
 }
 

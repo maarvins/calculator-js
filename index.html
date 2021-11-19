@@ -11,36 +11,45 @@
     <section>
       <div class="calculator-container">
         <div class="calculator">
-          <div class="display">
-            <input id="input-display" type="text" placeholder="0" />
-          </div>
           <div class="calculator-body">
             <div class="keyboard">
               <table>
                 <tr>
-                  <td><button>C</button></td>
-                  <td><button>^</button></td>
-                  <td><button>/</button></td>
+                  <div class="display">
+                    <input id="input-display" type="text" placeholder="0" />
+                  </div>
+                </tr>
+                <tr>
+                  <td><button class="btn">C</button></td>
+                  <td><button class="btn">^</button></td>
+                  <td><button class="btn">/</button></td>
                   <td><button class="operators">x</button></td>
                 </tr>
                 <tr>
-                  <td><button>7</button></td>
-                  <td><button>8</button></td>
-                  <td><button>9</button></td>
+                  <td><button class="btn">7</button></td>
+                  <td><button class="btn">8</button></td>
+                  <td><button class="btn">9</button></td>
                   <td><button class="operators">-</button></td>
                 </tr>
                 <tr>
-                  <td><button>6</button></td>
-                  <td><button>5</button></td>
-                  <td><button>4</button></td>
+                  <td><button class="btn">6</button></td>
+                  <td><button class="btn">5</button></td>
+                  <td><button class="btn">4</button></td>
                   <td><button class="operators">+</button></td>
                 </tr>
                 <tr>
-                  <td><button>3</button></td>
-                  <td><button>2</button></td>
-                  <td><button>1</button></td>
-                  <td><button class="operators">=</button></td>
+                  <td><button class="btn">3</button></td>
+                  <td><button class="btn">2</button></td>
+                  <td><button class="btn">1</button></td>
+                  <td rowspan="2">
+                    <button class="operators equal">=</button>
+                  </td>
                 </tr>
+                <tr>
+                  <td colspan="2"><button class="btn zero">0</button></td>
+                  <td><button>.</button></td>
+                </tr>
+                <!-- Utilizar span para expandir, row linha e col coluna -->
               </table>
             </div>
           </div>
