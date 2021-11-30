@@ -120,3 +120,11 @@ input:focus {
   color: #fff;
   animation: flicker 1.5s infinite alternate;
 }
+
+@media screen and (max-width: 1024px) {
+  #copyright {
+    position: absolute;
+    left: 150px;
+    text-align: center;
+  }
+}
