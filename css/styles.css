@@ -31,7 +31,7 @@ button {
   border: none;
   border-radius: 15%;
   transition-property: transform;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
   margin: 6px;
   opacity: 0.7;
 }
