@@ -35,7 +35,7 @@ This project was developed using the following technologies:
 Clone the project and access the folder.
 
 ```bash
-$ git clone https://github.com/maarvins/kotas.git && cd kotas
+$ git clone https://github.com/maarvins/calculator-js.git && cd calculator-js
 ```
 
 Follow the steps below
@@ -50,7 +50,7 @@ $ npm start
 
 ## 💻 Project
 
-I started this project with the intention of developing my skills in the FRONTEND stack and apply to a test that i received to start a new job.
+That's a project about PRACTICE! We need to pratice every time we can. 
 
 
 ## 📝 License
