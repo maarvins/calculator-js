@@ -50,13 +50,14 @@ button:hover {
   width: 100px;
 }
 
-#input-display {
-  font-size: 25px;
+#display {
+  background-color: white;
+  border-radius: 30px;
   text-align: right;
-  height: 35px;
-  width: 215px;
-  border: none;
-  border-radius: 5%;
+  height: 25px;
+  line-height: 25px;
+  padding: 16px 8px;
+  font-size: 25px;
 }
 
 /* retirando borda do input quando clicado */
