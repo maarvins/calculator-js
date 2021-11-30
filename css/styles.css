@@ -123,8 +123,8 @@ input:focus {
 
 @media screen and (max-width: 1024px) {
   #copyright {
-    position: absolute;
-    left: 150px;
+    position: fixed;
+    left: 40%;
     text-align: center;
   }
 }
