@@ -25,7 +25,7 @@ buttons.map((btn) => {
         try {
           display.innerText = eval(display.innerText)
         } catch {
-          display.innerHTML = "Error!"
+          display.innerHTML = "PARA DE ERRAR, DAVI!!!!"
         }
         break
       default:
