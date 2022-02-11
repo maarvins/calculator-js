@@ -51,6 +51,7 @@ $ npm start
 ## 💻 Project
 
 That's a project about PRACTICE! We need to pratice every time we can. 
+Follow the link to visit the project web site: https://maarvins.github.io/calculator-js/
 
 
 ## 📝 License
